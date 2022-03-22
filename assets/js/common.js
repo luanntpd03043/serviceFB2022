@@ -18,7 +18,7 @@ $(function() {
   
   
      //Enabling auto scroll
-     sliderInterval = setInterval(slideNext, 45000);
+     sliderInterval = setInterval(slideNext, 4500);
   
   
   
