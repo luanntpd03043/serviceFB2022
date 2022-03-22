@@ -420,11 +420,7 @@ span {
     }
 }
 
-.small-6 {
-    max-width: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-}
+
 
 @media screen and (max-width: 849px) {
     .col {
@@ -435,6 +431,12 @@ span {
 @media screen and (max-width: 750px) {
     .large-columns-3 {
         display: block;
+    }
+
+    .small-6 {
+        max-width: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
     }
 }
 
