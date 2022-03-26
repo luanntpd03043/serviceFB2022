@@ -1412,8 +1412,8 @@ a.text-dark:focus {
 }
 
 .back-to-top.show {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
 
 .back-to-top::after {
@@ -1440,6 +1440,14 @@ a.text-dark:focus {
   border-color: #fff;
 }
 
+@media (max-width: 750px) {
+  .back-to-top {
+    bottom: 46px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+}
 
 .page-section {
   position: relative;
@@ -1550,12 +1558,12 @@ a.text-dark:focus {
   height: 100%;
 }
 
-.features a:hover{
+.features a:hover {
   text-decoration: none;
   opacity: .9;
 }
 
-.features.comming-txt{
+.features.comming-txt {
   transform: rotate(20deg);
 }
 

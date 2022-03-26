@@ -941,11 +941,15 @@ i[class*=" icon-"] {
 
 @media (max-width: 750px) {
     #button-contact-vr {
-        bottom: 10px;
+        bottom: 40px;
     }
 
     #button-contact-vr {
-        left: 10px;
+        left: 0;
+    }
+
+    #menu-dich-vu-tiktok{
+        padding-left: 80px;
     }
 }
 
