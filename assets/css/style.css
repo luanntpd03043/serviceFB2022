@@ -567,6 +567,7 @@ span {
 
 #col-1665045665>.col-inner {
     padding: 25px 25px 25px 25px;
+    height: 100%;
 }
 
 @media screen and (min-width: 850px) {
